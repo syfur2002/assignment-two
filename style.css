@@ -121,9 +121,42 @@
     text-align: center;
     font-weight: 400;
 }
+.run{
+    margin: 0 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.run h3{
+    color: white;
+    font-size: 3rem;
+}
+.run p{
+    color:rgba(255, 255, 255, 0.5);
+    background:none;
+}
+.run button{
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 20px;
+    background-color: rgb(230, 83, 60);
+}
+.run img{
+    width: 75%;
+    text-align: center;
+    border-radius: 10px;
+}
+.mleft{
+    text-align: start;
+}
 @media  screen and (max-width: 576px) {
     
-    .navbar{
+    .navbar,
+    .run{
         margin: 0px 30px;
     }
     .navbar ul{
@@ -143,7 +176,12 @@
     .bottom{
         margin-left: 195px;
     }
-    .habit-cart{
+    .habit-cart, 
+    .run{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .run{
+        gap: 30px;
+        margin-bottom: 20px;
     }
 }
