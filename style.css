@@ -85,7 +85,6 @@
 .bottomh{
     font-size: 1.4rem;
 }
-
 .habit{
     margin: 0 130px;
 }
@@ -182,11 +181,6 @@
     padding: 14px;
     font-size: 1.5rem;
 }
-
-
-.bmi-right{
-
-}
 .bmi-right h2{
     color: white;
     font-size: 2.5rem;
@@ -248,7 +242,6 @@
     margin: 0 130px;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    
 }
 .footer h2{
     color:rgb(230, 83, 60);
@@ -276,7 +269,6 @@
     text-align: center;
 }
 @media  screen and (max-width: 576px) {
-    
     .navbar,
     .run{
         margin: 0px 30px;
