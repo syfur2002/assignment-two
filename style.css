@@ -1,0 +1,39 @@
+*{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 130px;
+    align-items: center;
+}
+.navbar h3{
+    color: rgb(230, 83, 60);
+    font-size: 2.5rem;
+}
+.navbar ul{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.navbar li{
+    list-style: none;
+}
+.lal-btn{
+    background-color:rgb(230, 83, 60);
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+
+@media  screen and (max-width: 576px) {
+    .navbar{
+        margin: 0px 30px;
+    }
+    .navbar ul{
+        visibility: hidden;
+    }
+    
+}
