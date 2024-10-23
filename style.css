@@ -153,6 +153,72 @@
 .mleft{
     text-align: start;
 }
+.bmi-title{
+    color: white;
+    text-align: center;
+    font-size: 2.7rem;
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.bmi{
+    margin: 0 130px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bmi-left h3{
+    color: white;
+    font-size: 2.5rem;
+}
+.bmi-table{
+    color:rgba(255, 255, 255, 0.5);
+    border-collapse: collapse;
+}
+.bmi-table th, td{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 14px;
+    font-size: 1.5rem;
+}
+
+
+.bmi-right{
+
+}
+.bmi-right h2{
+    color: white;
+    font-size: 2.5rem;
+}
+.bmi-right p{
+    color: white;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.input-form{
+    color: rgba(255, 255, 255, 0.5);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+.bmi-input{
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+.last-input{
+    width: 94%;
+    margin-top: 20px;
+}
+.bmi-btn{
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 11px;
+    background-color: rgb(230, 83, 60);
+    margin-top: 18px;
+}
 @media  screen and (max-width: 576px) {
     
     .navbar,
@@ -183,5 +249,12 @@
     .run{
         gap: 30px;
         margin-bottom: 20px;
+    }
+    .input-form{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .bmi{
+        margin: 10px 30px;
+        flex-direction: column;
     }
 }
